@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 
   switch(url) {
     case '/':
-      mainRouteController(res, '/index.html', '.html')
+      mainRouteController(res, 'index.html', '.html')
       break;
 
     case '/game':
